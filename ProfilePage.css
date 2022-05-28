@@ -1,0 +1,252 @@
+
+.nav {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: rgb(153, 154, 149);
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  padding-left: 20px;
+  font-family:'Roboto Mono', monospace;
+  z-index: 9999;
+  
+}
+.nav .nav-title{
+  justify-content: space-between;
+  color: aliceblue;
+  padding-left: 20px;
+  font-size: 30px;
+  
+}
+.nav a {
+  padding: 8px;
+  color: aliceblue;
+  text-decoration: none;
+  float: left;
+  display: block;
+
+}
+
+ul{
+  list-style-type: none;
+}
+
+.nav-links{
+   display: flex;
+   align-items: flex-end;
+   margin-bottom: 30px;
+}
+
+.active{
+  font-weight: bold;
+}
+
+button{
+  background-color: rgb(5, 152, 220);
+  color: aliceblue;
+  padding: 10px 20px;
+  border: 1px solid black;
+  box-shadow: 10px 3px black;
+  margin: auto 20px auto 10px;
+  font-weight: bold;
+}
+
+
+  body {
+    font-family: 'Roboto Slab', serif;
+   }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  .content-container{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 100px 10px 100px;
+    align-items: center;
+    justify-content: center
+    
+}
+   
+  .box {
+   background-color: rgb(232, 205, 195);
+   border-radius: 10%; 
+   width: 653px;  
+   height: 100px; 
+   margin-bottom: 300px;
+   padding-bottom: 161px;
+   border: none;
+}
+.connection-list{
+  padding: 0px 1px 0px 8px;
+
+}
+  .row1{
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      margin: 32px 40px 20px 71px;
+  }
+  .sub_box_5 p{
+      display: flex;
+      justify-content: left;
+      padding-left: 20px;
+
+  }
+
+  .sub_box_5 .p1{
+      color: black;
+      font-size: 25px;
+      font-weight: bold;
+  }
+  .row2{
+      display: flex;
+      flex-direction: column;
+      margin: 10px 100px 67px 10px
+  }
+  
+  img {
+      height: 250px;
+      width: 250px;
+      position: absolute;
+      float: left;
+      z-index: 1;
+      margin-left: 20px;
+     
+      
+  }
+  .box_2 {
+    height: 315px;
+    top: 149px;
+    background-color: rgb(193, 217, 217);
+    border-radius: 3%;
+    margin-top: 120px;
+    border: 2px solid rgb(232, 205, 195);
+   
+  }
+  
+  .box_5 {
+      justify-content: left;
+      left: 5px;
+      width: 650px;
+      height: 248px;
+      border-radius: 3%;
+      font-size: 20px;
+      background-color: rgb(193, 217, 217);
+      border-radius: 5%;
+      margin: -88px -6px 10px 0px;
+      border: 2px solid rgb(232, 205, 195);
+  }
+
+  .connection-list3 {
+      background-color: rgb(232, 205, 195);
+      width: 649px;
+      height: 60px;
+      color: black;
+      text-align: left;
+      padding: 1px 0px 14px 2px;
+      border-radius: 10%;
+      border: none
+  }
+
+  .connection-list3 h3{
+      margin-left: 20px;
+  }
+  
+  .box_2 h1 {
+
+      margin-top: 116px;
+      margin-left: 35px;
+  }
+
+  .box_2 p {
+      margin-left: 35px;
+  }
+
+  .box_3 {
+      height: 315px;
+      top: 149px;
+      background-color: rgb(193, 217, 217);
+      border-radius: 3%;
+      margin-top: 120px;
+      margin-bottom: 30px;
+      border: 2px solid rgb(232, 205, 195);
+    
+  }
+ 
+  .connection {
+      background-color: rgb(232, 205, 195);
+      border-radius: 5%;
+  width: 100%;
+  height: 49px;
+  color: black;
+  text-align: center;
+  padding: 12px 0px 25px 0px;
+  
+}
+
+.connection p{
+  font-size: 22px;
+}
+
+ 
+  .connection-list2 {
+          display: flex;
+          background-color: rgb(232, 205, 195);
+          border-radius: 5%;
+          color: black;
+          text-align: center;
+          padding-top: 5px;
+          padding-bottom: 10px;
+          display: flex;
+          justify-content: center;
+  
+  }
+
+  .connection-list2 p{
+     font-size: 22px;
+
+}
+  
+ 
+  .signs{
+  
+    margin: -58px 25px 9px 253px;
+}
+
+.connection-list p{
+  padding: 0px 1px 12px 8px;
+  font-size: 20px; 
+}
+  
+
+ .box_4{
+  height: 430px;
+  background-color: rgb(193, 217, 217);
+  border-radius: 3%;
+  border: 2px solid rgb(232, 205, 195);
+
+ }
+.connection-list a{
+  position: relative;
+  top: -13px;
+  left: 8px;
+}
+hr{
+  
+  width: 380px;
+}
+ 
+
+.date {
+color: gray; 
+}
+
+
+
